@@ -70,9 +70,9 @@ You can test the API directly in your browser thanks to Django REST Framework's 
 ## 📁 Project Structure
 
 ```
-task-manager-api/
+KurazTask/
 │
-├── your_app/
+├── Task/
 │   ├── models.py
 │   ├── views.py
 │   ├── serializers.py
@@ -81,7 +81,7 @@ task-manager-api/
 │       └── your_app/
 │           └── home.html
 │
-├── project/
+├── KurazTask/
 │   └── settings.py
 │
 ├── requirements.txt
