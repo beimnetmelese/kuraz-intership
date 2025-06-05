@@ -30,8 +30,8 @@ You can test the API directly in your browser thanks to Django REST Framework's 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/task-manager-api.git
-   cd task-manager-api
+   git clone https://github.com/beimnetmelese/kuraz-intership.git
+   cd KurazTech
    ```
 
 2. **Create and activate a virtual environment**
