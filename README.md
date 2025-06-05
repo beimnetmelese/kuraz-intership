@@ -31,7 +31,6 @@ You can test the API directly in your browser thanks to Django REST Framework's 
 
    ```bash
    git clone https://github.com/beimnetmelese/kuraz-intership.git
-   cd KurazTech
    ```
 
 2. **Create and activate a virtual environment**
@@ -70,22 +69,18 @@ You can test the API directly in your browser thanks to Django REST Framework's 
 ## 📁 Project Structure
 
 ```
+
+Task/
+├── models.py
+├── views.py
+├── serializers.py
+├── urls.py
+└── templates/
+    └── home.html/
 KurazTask/
-│
-├── Task/
-│   ├── models.py
-│   ├── views.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── templates/
-│       └── your_app/
-│           └── home.html
-│
-├── KurazTask/
-│   └── settings.py
-│
-├── requirements.txt
-└── manage.py
+└── settings.py
+requirements.txt
+manage.py
 ```
 
 ---
