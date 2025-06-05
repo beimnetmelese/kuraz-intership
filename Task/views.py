@@ -2,6 +2,10 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 from .models import Task
 from .serializers import TaskSerializer
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'home.html')
 
 class TaskViewSet(viewsets.ModelViewSet):
     queryset = Task.objects.all()
